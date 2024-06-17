@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+         <link href="style.css"  rel="stylesheet" type="text/css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body class="body">
+        <!--<div>TODO write content</div>-->
+        <div class="container">
+        <header>Update Record</header>
+        <form action="update.jsp" class="form" method="post">
+            <div class="personal-details"> 
+                <!--<span class="title">Personal Information</span>-->
+                
+                <div class="field">
+                    <div class="input-field">
+                        <label>Roll No</label>
+                        <input type="text" placeholder="Enter Your Roll No" required name="u1">
+                    </div>
+                    <select name="column" class="button"> 
+                          <option value="name">name</option> 
+                           <option value="address">address</option> 
+                           <option value="phone">phone</option> 
+                           <option value="qualification">qualification</option> 
+                           <option value="division">division</option> 
+                     </select>
+                    <div class="input-field">
+                        <label>Updated Value</label>
+                        <input type="text" placeholder="Enter Your Name"  name="u2">
+                    </div>
+                    
+                    <!--                    <div class="input-field">
+                        <label>Updated Address</label>
+                        <input type="text" placeholder="Enter Your Address" name="t3">
+                    </div>
+                    
+                    <div class="input-field">
+                        <label>Updated Phone Number</label>
+                        <input type="number" placeholder="Enter Your phone No" name="t4">
+                    </div><div class="input-field">
+                        <label>Updated Qualification</label>
+                        <input type="text" placeholder="Enter Your Qualification" name="t5">
+                    </div><div class="input-field">
+                        <label>Updated Division</label>
+                        <input type="text" placeholder="Enter Your Division"  name="t6">
+                    </div>-->
+                    <input type="submit" name="SAVE" value="Submit" class="button">
+                </div>
+            </div>
+        </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6 Apr, 2024, 10:16:31 AM
+    Author     : GITESH
+*/
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #565693;
+}
+.container{
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    background-color: white;
+    border-radius: 6px;
+    margin: 0 15px;
+    padding:30px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.10);
+}
+.container header{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+.container form{
+    min-height: 490px;
+    position: relative;
+    margin-top: 16px;
+}
+.container form .title{
+    font-size: 16px;
+    font-weight:500;
+    margin: 6px 0;
+}
+.field{
+    display: flex;
+    align-item: center;
+    justify-content:space-around; 
+    flex-direction: column;
+    
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    margin-top:  2%;
+    margin-bottom: 1%;
+   
+    
+}
+.label{
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+}
+.input-field input{
+    padding:0 15px;
+    outline: none;
+    height: 42px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+   
+}
+.button{
+    background-color: #565693;
+    padding:1%;
+    border: 0;
+    border-radius: 5px;
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight:400;
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-item:center; 
+        
+}
+.table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.table td, .table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/*.table tr:nth-child(even){background-color: #f2f2f2;}*/
+
+.table tr:hover{background-color: #ddd;}
+
+.table td{
+    background-color: #fcfcfc;
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0b304d;
+  color: white;
+}
